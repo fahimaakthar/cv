@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family:'Ubuntu',sans-serif ;
+
+}
+body{
+    background:linear-gradient(to right,rgb(0, 255, 55),rgb(22, 22, 112) ,rgb(113, 223, 103)) ;
+}
+.resume{
+    width: 800px;
+    background-color: rgb(236, 245, 242);
+    margin: 25px auto;
+    display:flex ;
+}
+.left{
+    background: rgb(136, 114, 18);
+    width: 250px;
+    padding: 0 20px;
+}
+.right{
+    width: calc(100% - 250px);
+
+}
+.left .img-holder{
+    text-align: center;
+    padding: 20px 0;
+}
+.left .img-holder img{
+    width: 200px;
+    border-radius:40px ;
+}
+.pb{
+    padding-bottom: 20px;
+}
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    color: blue;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.title::before{
+    content: '';
+    position: ;
+    top: 35px;
+    right: 0;
+    width: 50px;
+    height: 3px;
+    background:blue ;
+}
+.left .icon{
+    font-size: 20px;
+    color: blue;
+}
+.left .text{
+    color: blue;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.contact .li-wrap{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact .li-wrap .icon{
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+.contact .li-wrap .text{
+    width: calc(100% - 50px);
+    word-break: break-word;
+    color: white;
+}
+.skills ul,
+.hobbies ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skills .li-wrap,
+.hobbies .li-wrap{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skills .li-wrap{
+    background-color: white;
+}
+.skills .li-text,
+.hobbies .li-text{
+    margin-top: 5px;
+  
+}
+}
+.hobbies .li-wrap{
+    border: 2px solid #fff ;
+}
+.hobbies .li-wrap .icon,
+.hobbies .li-wrap .text{
+    color: white;
+}
+.hobbies .li-wrap:hover{
+    background: white;
+}
+
+.hobbies .li-wrap:hover .icon,
+.hobbies .li-wrap:hover .text{
+    color: blue;
+
+}
+
+.header{
+    background: rgb(136, 114, 18);
+    padding: 15px 30px;
+    color: white;
+    height: 240px;
+
+}
+.name h1{
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: 700px;
+    color: rgb(3, 3, 133);
+
+}
+,header.role{
+    font-weight: 300px;
+    font-size: 26px;
+
+}
+.header.about{
+    margin-top: 20px; 
+    line-height: 26px;
+}
+.right-inner{
+    padding: 30px;
+    color: rgb(136, 114, 18);
+
+}
+
+.right-inner .education{
+    margin-top: 30px;
+
+}
+.right-inner .li-wrap{
+    display: flex;
+    margin-bottom: 15px;
+}
+.right-inner .li-wrap .date{
+    width: 125px;
+    color:blue;
+}
+.right-inner .li-wrap .info{
+    width: calc(100% - 125px);
+    padding-left: 25px;
+    position: relative;
+}
+.right-inner .li-wrap .info-title{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: blue;
+
+}
+.right-inner .li-wrap .info-com{
+    font-weight: 300px;
+    font-size: 14px;
+    margin-top: 3px;
+}
+.right-inner .li-wrap .info{
+    margin-top: 15px;
+}
+.right-inner .li-wrap .info:before{
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background: rgb(31, 6, 253);
+    border-bottom: 50%;
+
+}
+.right-inner .li-wrap .info:after{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    width:2px;
+    height: 90%;
+    background: rgb(31, 6, 253);
+  
+
+}
